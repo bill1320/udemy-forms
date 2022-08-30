@@ -70,10 +70,26 @@
     </form>
 
     <h2>More Inputs</h2>
+
+    <!-- checkbox is yes/no, radio can only check one  -->
+
     <form action="birds">
       <input type="checkbox" name="agree_tos" id="agree" />
       <label for="agree">I agree to everything</label>
-      <button>Submit</button>
+      <p>
+        <button>Submit</button>
+      </p>
+    </form>
+    <form>
+      <input type="radio" name="size" id="L" value="L" />
+      <label for="L">L</label>
+      <input type="radio" name="size" id="XL" value="XL" />
+      <label for="XL">XL</label>
+      <input type="radio" name="size" id="XXL" value="XXL" />
+      <label for="XXL">XXL</label>
+      <p>
+        <button>Add to Cart</button>
+      </p>
     </form>
   </body>
 </html>
